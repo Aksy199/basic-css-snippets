@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>align items</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      #heading {
+        margin-left: 200px;
+      }
+      .box1 {
+        border: 3px solid black;
+
+        grid-column: 1/2;
+        grid-row: 1/2;
+      }
+      .box2 {
+        border: 3px solid black;
+
+        grid-column: 1/2;
+        grid-row: 2/2;
+      }
+      .box3 {
+        border: 3px solid black;
+
+        grid-column: 2/2;
+        grid-row: 1/2;
+      }
+      .box4 {
+        border: 3px solid black;
+
+        grid-column: 2/2;
+        grid-row: 2/2;
+      }
+      #container {
+        height: 450px;
+        width: 450px;
+        padding: 10px;
+        margin: 20px;
+        border: 3px solid black;
+
+        display: grid;
+        grid-template-columns: 50px, 50px;
+        grid-template-rows: 50px, 50px;
+      }
+
+      #box1 {
+        background-color: aqua;
+      }
+      #box2 {
+        background-color: chartreuse;
+      }
+      #box3 {
+        background-color: yellow;
+      }
+      #box4 {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">Grid Container</h1>
+    <div id="container">
+      <div id="box1" class="box1">Grid  Item 1</div>
+      <div id="box2" class="box2">Grid  Item 2</div>
+      <div id="box3" class="box3">Grid  Item 3</div>
+      <div id="box4" class="box4">Grid  Item 4</div>
+    </div>
+  </body>
+</html>

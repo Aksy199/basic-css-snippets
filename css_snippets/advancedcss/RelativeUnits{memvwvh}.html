@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* percentage */
+        #first {
+            height: 220px;
+            width: 220px;
+            background-color: darkorchid; 
+            font-size: 30px;
+        }
+        #second {
+            height: 50%; 
+            width: 35%;
+            background-color: mediumvioletred;
+        }
+        /* EM  (reltive to parent element)*/
+       body {
+        font-size: 60px;
+        }
+        #third{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            font-size: 30px;
+        }
+        #fourth {
+            background-color: blue;
+            width: 70%; height: 50%;
+            font-size: 2em;
+        }
+        /* REM  (reltive to root element)*/
+        *{font-size: 59px;}
+        #fifth {height: 200px; width: 200px;
+            background-color: chocolate;
+            font-size: 20px;
+        }
+        #sixth{
+            background-color: darkorange;
+            height: 50%;
+            width: 70%;
+            font-size: 2rem;}
+       
+        
+
+    </style>
+</head>
+<body>
+    percentage
+    <div id="first">
+        first
+        <div id="second">
+            second
+        </div>
+    </div><hr>
+    EM
+    <div id="third">
+        third
+        <div id="fourth">
+            fourth
+        </div>
+    </div><hr>
+    REM
+    <div id="body2">body2
+        <div id="fifth">fifth
+            <div id="sixth">sixth</div>
+        </div>
+    </div><hr>
+    
+
+
+
+</body>
+</html>

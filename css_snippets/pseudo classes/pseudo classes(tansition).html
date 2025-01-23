@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psuedo Classes</title>
+    <style>
+        .btn{height: 25px;
+            width: 70px;
+            position: relative;
+            top: 200px; left: 250px;
+            border: 1px solid blueviolet;
+            border-radius: 5px;
+            background-color: aliceblue;
+
+            transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+            
+            /* transition: all 1s ease-in-out 0s; */
+            
+        }
+        .btn:hover {
+            height: 30px;
+            width: 80px;
+            background-color: darkorange;
+            border: 1px solid red;
+        }
+        .btn:active{
+            height: 25px;
+            width: 90px;
+            border: 1px solid royalblue;
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">click me</button>
+</body>
+</html>

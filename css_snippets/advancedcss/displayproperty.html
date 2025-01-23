@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property</title>
+    <style>
+        /* here we see blocl inline , inline-block and nonw values of display properties and
+        justify  content centre with display flex behaves like inline block */
+        .box{
+            height: 100px; width: 100px;
+            background-color: blueviolet;
+            margin: 10px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 10px;
+            display: block;
+        }
+        /* just to displaying all boxes horizontally center/*
+        /* #parent{ 
+            display: flex;
+            justify-content: center;
+            displays the boxes in inline block form centrally represented
+        }*/
+        .box1{
+            height: 100px; width: 100px;
+            background-color: blueviolet;
+            margin: 10px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 10px;
+            display: inline;
+        }
+        .box2{
+            height: 100px; width: 100px;
+            background-color: blueviolet;
+            margin: 10px;
+            text-align: center;
+            border: 5px solid black;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        /*hides box9 */
+        #div9{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="div1" class="box">box1</div>
+        <div id="div2" class="box">box2</div>
+        <div id="div3" class="box">box3</div>
+    </div>   <hr>
+    <div id="parent">
+        <div id="div4" class="box1">box4</div>
+        <div id="div5" class="box1">box5</div>
+        <div id="div6" class="box1">box6</div>
+    </div>   <hr>
+    <div id="parent">
+        <div id="div7" class="box2">box7</div>
+        <div id="div8" class="box2">box8</div>
+        <div id="div9" class="box2">box9</div>
+    </div>   
+</body>
+</html>

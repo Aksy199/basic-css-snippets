@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicesetlevel5</title>
+    <style type="text/css">
+        *{
+          text-decoration: none;
+          
+        }
+        .navbar{
+            background: crimson; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        .navdiv{
+            display: flex; align-items: center;
+            justify-content: space-between;
+        }
+        .logo a{
+            font-size: 35px; font-weight: 600;
+            color: white;
+        }
+        li{
+            list-style: square; display: inline-block;
+        }
+        li a{
+            color: azure;font-size: 18px; font-weight: bold; margin-right: 25px;
+        }
+        button{
+            background-color: forestgreen; margin-left: 10px; border-radius: 10px;
+            padding: 10px;
+            width: 90px;
+        }
+        #second{
+            height: 50px;
+            width: 50px;
+            background-color: gold;
+            border-radius: 50%;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: slateblue;
+            margin: 5px;
+            display: inline-block;
+        }
+        #container{
+            border: 3px solid;
+            margin: 5px;
+        }
+        .b{
+            height: 100px;
+            width: 100px;
+        
+            margin: 5px;
+        }
+        #box4 {
+        background-color: darkred;
+            position: fixed;
+            right: 100px;
+        }
+        #box5 {
+            background-color: aqua;
+            z-index: 2;
+            position: absolute;
+            right: 70px;
+        }
+        footer {
+            position: fixed;
+            bottom: 0px;
+            background-color: coral;
+        }
+     
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div class="logo"><a href="#">NAVIGATION BAR </a></div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <button><a href="#">SignIn</a></button>
+                    <button><a href="#">SignUp</a></button>
+                </ul>
+            </div>
+        </nav>
+    </header><hr>
+    <main >
+        <div id="second"></div>
+        <div id="container">
+            <div id="box1" class="box">box1</div>
+            <div id="box2" class="box">box2</div>
+            <div id="box3" class="box">box3</div>
+        </div>
+        <div  id="box4" class="b">box4</div>
+        <div  id="box5" class="b">box5</div>
+    </main><hr>
+    <footer>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum vitae natus dolores rem possimus id repudiandae eligendi, obcaecati quisquam voluptatem. Doloremque iste numquam consectetur hic aperiam fuga sapiente exercitationem voluptatibus magnam iusto distinctio vel, beatae quod quidem amet veniam ratione.</footer>
+</body>
+</html>

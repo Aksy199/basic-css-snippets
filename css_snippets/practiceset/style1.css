@@ -1,0 +1,16 @@
+.heading{
+    color: blue;
+}
+/* this is a comment in a css class  */
+#h2{
+    color: green;
+}
+p{
+    color: pink;
+}
+.h7{
+    color: red;
+}
+#first2, .second2 {
+    color: yellow;
+        }
